@@ -10,6 +10,6 @@ app.get('/status/:parameter', (req, res) => {
   res.send('The status is: ' + param);
 });
 
-app.listen(3000, () => {
-  console.log("Express server listening on port " + 3000);
+app.listen(80, () => {
+  console.log("Express server listening on port " + 80);
 });
